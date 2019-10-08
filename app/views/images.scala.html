@@ -1,0 +1,11 @@
+@(list: List[ImageMap])
+<ul>
+@for(index <- 0 until list.size) {
+<li>
+<img width="100" height="100" src=@list.get(index).getDownload_url() ></img>
+</li>
+}
+
+
+
+</ul>

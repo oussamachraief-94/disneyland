@@ -1,0 +1,3 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HP\Desktop\dlp-test\app\controllers\HomeController.java:91:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: method mapUrls()[0m
+[0m[[0m[31merror[0m] [0m[0m        	this.mapUrls();[0m
