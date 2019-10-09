@@ -1,11 +1,19 @@
 package models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ImageMap{
+	@JsonProperty("id")
     private String id;
+	@JsonProperty("author")
     private String author;
+	@JsonProperty("width")
     private Integer width;
+	@JsonProperty("height")
     private Integer height;
+	@JsonProperty("url")
     private String url;
+	@JsonProperty("download_url")
     private String download_url;
     
     

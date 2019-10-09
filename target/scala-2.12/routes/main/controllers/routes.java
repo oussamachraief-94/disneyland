@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/HP/Desktop/dlp-test/conf/routes
-// @DATE:Tue Oct 08 15:35:50 CEST 2019
+// @DATE:Wed Oct 09 16:18:58 CEST 2019
 
 package controllers;
 

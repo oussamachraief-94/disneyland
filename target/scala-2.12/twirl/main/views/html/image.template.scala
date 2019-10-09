@@ -25,13 +25,23 @@ import play.core.j.PlayFormsMagicForJava._
 object image extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*4.2*/(url : String ):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*2.6*/(url : String ):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*4.17*/("""
-"""),format.raw/*5.1*/("""<img src="""),_display_(/*5.11*/url),format.raw/*5.14*/(""" """),format.raw/*5.15*/("""/>"""))
+Seq[Any](format.raw/*2.21*/("""
+    """),format.raw/*3.5*/("""<img src="""),_display_(/*3.15*/url),format.raw/*3.18*/(""" """),format.raw/*3.19*/("""/>
+
+    
+
+
+
+
+
+
+   
+"""))
       }
     }
   }
@@ -47,11 +57,11 @@ Seq[Any](format.raw/*4.17*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Oct 08 19:37:29 CEST 2019
+                  DATE: Wed Oct 09 16:21:53 CEST 2019
                   SOURCE: C:/Users/HP/Desktop/dlp-test/app/views/image.scala.html
-                  HASH: 3cf12300c48d37212aff788b4deab74a6c6d33fa
-                  MATRIX: 948->7|1058->22|1086->24|1122->34|1145->37|1173->38
-                  LINES: 28->4|33->4|34->5|34->5|34->5|34->5
+                  HASH: 756ddd7aed4717abea2ed0575c8b2e17eadc5e75
+                  MATRIX: 948->7|1058->22|1090->28|1126->38|1149->41|1177->42
+                  LINES: 28->2|33->2|34->3|34->3|34->3|34->3
                   -- GENERATED --
               */
           
